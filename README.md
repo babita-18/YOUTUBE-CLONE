@@ -3,7 +3,7 @@ This is my first project in frontend development.
 
 # Built-You-Tube-Clone-With-HTML-CSS-JavaScript
 
-[<img alt="Built-You-Tube-Clone-With-HTML-CSS-JavaScript" width="100%" src="" />](https://youtu.be/P8YuWEkTeuE/)
+[<img alt="Built-You-Tube-Clone-With-HTML-CSS-JavaScript" width="100%" src="" />]
 
 
 ## About this project
