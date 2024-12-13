@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+    <style>
+       
+
+     
+    </style>
+</head>
+<body>
+    <!-- img===void element
+     input== void element
+     div== block element -->
+     <header class="header">
+        <div class="left-section"> 
+            <img class="hamburger-menu" src="icon/hamburger-menu.svg" alt=""> 
+            <img class="utubelogo" src="icon/utubelogo.svg" alt=""></div>
+            <!-- Bcs NAV help us navigate through the website .... which sidebar does on utube project here-->
+            <nav class="sidebar">
+                
+                <div class="sidebar-link">
+                    <div class="sidebar-icon">
+                        <img src="icon/home.svg"></div>
+                    <div class="sidebar-text">Home</div>
+                </div>
+                <div class="sidebar-link">
+                    <div class="sidebar-icon"><img src="icon/shorts.svg" alt=""></div>
+                    <div  class="sidebar-text">Shorts</div>
+                </div>
+                <div class="sidebar-link">
+                    <div class="sidebar-icon"><img src="icon/subscription.svg" alt=""></div>
+                    <div  class="sidebar-text">Subscription</div>
+                </div>
+                <div class="sidebar-link">
+                  <div class="sidebar-icon">  <img src="icon/explore.svg" alt=""></div>
+                    <div  class="sidebar-text">Explore</div>
+                </div>
+                <div class="sidebar-link">
+                    <div class="sidebar-icon">                    
+                        <img src="icon/podcast.svg" alt="">
+                    </div>
+                    <div  class="sidebar-text">Podcast</div>
+                </div>
+                <div class="sidebar-link">
+                    <div class="sidebar-icon">
+                        <img src="icon/library.svg" alt="">
+                    </div>
+                    <div  class="sidebar-text">Library</div>
+                </div>
+
+
+
+            </nav>
+
+
+        <div class="middle-section">
+             <input class="search-bar" type="text" placeholder="Search" name="" id=""> 
+             <button class="search-button">
+            <img class="search-icon" src="icon/search.svg" alt="">
+             <div class="tooltip">Search</div>
+            </button>
+             <button class="voice-search-button">
+                <img class="mic" src="icon/mic.png" alt="">
+                <div class="tooltip">Search with your Voice</div>
+
+            </button>
+
+
+        </div>
+
+        <div class="right-section">
+            <div              class="upload-icon-container">
+                <img   class="upload-icon" src="icon/upload.svg" alt=""> 
+                <div class="tooltip">Create</div>
+            </div>
+           
+            <div class="noti-icon-container">
+              <img class="notification-icon" src="icon/notification.svg" alt="">
+               <div class="noti-count">3</div>
+               <div class="tooltip">Notifications</div>
+            </div>
+
+        <div class="profile-pic-container">
+            <img class="current-user-picture" src="thumbnails/profile.jpg" alt="">
+            <div class="tooltip">My account
+            </div>
+        </div>
+        </div>
+    </header>
+       
+    </div>
+
+<!--  MAIN is used here bcs  bcs it contains the main contents of your website -->
+  <main>
+    <section class="video-grid">
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKsdfkJIMMsO898qSZUFfpplEz7w">
+                <img class="thumbnail" src="thumbnails/thumbnail1.png" alt="">
+            </a>
+                <div class="video-time">12:45</div>
+            </div>
+
+            <!-- grid is created on a  container -->
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://yt3.ggpht.com/lkH37D712tiyphnu0Id0D5MwwQ7IRuwgQLVD05iMXlDWO-kDHut3uI4MgIEAQ9StK0qOST7fiA=s68-c-k-c0x00ffffff-no-rj">
+                    <img   class="profile-picture" src="thumbnails/thumbnail1_1.jpg" alt="">
+                </a>
+
+                </div>
+                <div bclass="video-info">
+                    <p class="video-title"> 
+                        <a href="https://youtu.be/n2RNcPRtAiY?si=c7pCfHrBe-7OpbZs"
+                        class="video-link">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </a></p>
+                    <p class="video-author">Marques Brownlee </p>
+                    <p class="video-stats"> 5.3M views &#183; 1 year ago</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/8w7chA9Wnuw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUPTnr1YPaNdMu1YoVdyDbyx5Pkw">
+                <img class="thumbnail" src="thumbnails/thumbnail2.webp" alt="">
+                 </a>
+                <div class="video-time">8:22</div>
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://yt3.ggpht.com/ytc/AIdro_kWaf09a_L_gCrR0Ty5hrWQNNnGBCG8W8qJTjBtYSL0bic=s68-c-k-c0x00ffffff-no-rj">
+                    <img class="profile-picture" src="thumbnails/thumbnail2_1.jpg" alt="">
+                </a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://youtu.be/8w7chA9Wnuw?si=VNLVZJlGLaSzQpAx"
+                        class="video-link">
+                        Try not to laugh challenge # 24
+                        </a> </p>
+                    <p class="video-author">Markiplier </p>
+                    <p class="video-stats"> 15M views &#183; 3 years ago</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/qvi26KF_kVA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdlv8Jo5UL9-7PXT-IugdDx2MMpQ">
+                <img class="thumbnail" src="thumbnails/thumbnail3.webp" alt="">
+                </a>
+                <div class="video-time">9:13</div>
+                <!-- Since we have video -time below  header ....so video-time will appear above header
+                 But this rule does not apply to position : STATIC  .....elements with position static will always appear at the back.......
+                 to fix this problem use z-index -> -->
+            </div>
+                <!-- grid is created on a  container -->
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://yt3.ggpht.com/wDKswB5LHKhhgHGJ3Ub-ILpuEa0FXnGLfwiSvO4EgGFD20xGrHGB98T3YAz6YLtXVWDRqwqo=s68-c-k-c0x00ffffff-no-rj">
+                    <img class="profile-picture" src="thumbnails/thumbnail3_1.jpg" alt="">
+                    </a>
+                </div>
+                <div bclass="video-info">
+                    <p class="video-title">
+                        <a href="https://youtu.be/qvi26KF_kVA?si=KTw0UgjxCBVWz8Tk"
+                        class="video-link">
+                        Deinfluencing Tech The Developer Shortage Tech Job Market
+                        </a> </p>
+                   
+                    <p class="video-author">Tech and Beyond With Moss </p>
+                    <p class="video-stats"> 4K views &#183; 8 months ago</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/1k8iKHed_Q0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGrqQF2HhDulKtcNJwgY8C1nJm0A">
+                <img class="thumbnail" src="thumbnails/thumbnail4.webp" alt="">
+            </a>
+                <div class="video-time">25:13</div>
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://yt3.ggpht.com/YldyLIhVtmy-iSSvTiv13a5L2bulHBVbjdekr3uMAlz5SQEsm5hNlcxBWiVoGjbLeTntdwFT=s68-c-k-c0x00ffffff-no-rj">
+                    <img class="profile-picture" src="thumbnails/thumbnail4_1.jpg" alt="">
+                </a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://youtu.be/1k8iKHed_Q0?si=etfahsOigp6HF3oz"
+                        class="video-link">
+                        Tom And Jerry Fun Fest
+                        </a> </p>
+                    <p class="video-title"></p>
+                    <p class="video-author">Cartoon Network India </p>
+                    <p class="video-stats"> 4.6M views &#183;7 years ago</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/O3Jy4yovMCM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-Tt7CHxTVgtZD39B5NEpdxWEpTQ">
+                <img class="thumbnail" src="thumbnails/thumbnail5.webp" alt="">
+                </a>
+                <div class="video-time">5:43</div>
+            </div>
+            <!-- grid is created on a  container -->
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    
+                        <a href="https://yt3.ggpht.com/a_JXY8hatWS2eCXUC7QYn5Fl3nzgduEwKu_5HwstkyS2LDxkRQS5AtWqo3Ble7_IUjG6K0kyTw=s88-c-k-c0x00ffffff-no-rj">
+                    <img class="profile-picture" src="thumbnails/thumbnail5_1.jpg" alt="">
+                    </a>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://youtu.be/O3Jy4yovMCM?si=XDqFiKDQts_QUqIt"
+                        class="video-link">
+                        Until I Found You Full Version
+                        </a> </p>
+                    <p class="video-title"></p>
+                    <p class="video-author">Soumya Pruson </p>
+                    <p class="video-stats"> 2.1M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://i.ytimg.com/vi/vCsb0emDvFw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoR8GIOGbpaXFHbkzbWPkDtmxCzA"><img class="thumbnail" src="thumbnails/thumbnail6.webp" alt="">
+                </a>
+                <div class="video-time">3:22</div>
+
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://yt3.ggpht.com/MCLSromOd2Nt2bkeuLhroTipsFCnopClwcFt3MlM9HM1B1E7KHrdCHBqHGFDWQmOH23HfuuUfr0=s68-c-k-c0x00ffffff-no-rj">
+                    <img class="profile-picture" src="thumbnails/thumbnail6_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://youtu.be/vCsb0emDvFw?si=sELXXfpDb0kJpgFP"
+                        class="video-link">
+                        Ek Din Aap Yun[Slowed+Reverb]
+                        </a> </p>
+                    <p class="video-title"></p>
+                    <p class="video-author">Hossainex </p>
+                    <p class="video-stats"> 99K views &#183; 2 Weeks ago</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    </main>
+
+</body>
+
+</html>
+
+<!-- SEMANTIC ELEMENTS
+ like....header, nav
+ same as  div
+ have  special meaning to screen readers, search engines  and any other kind of device  that is reading our webpage
+ -->
+
+ <!--  Techniques we learnt:
+  1. Nested layouts technique
+  2. display: block/ inline block
+  3. grid
+  4. flexbox
+  5. position -->
+
+  <!-- try recreating:
+   twitter
+   facebook
+   instagram
+   utube video page(
+   page with video and comments) -->

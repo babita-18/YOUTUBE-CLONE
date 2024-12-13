@@ -1,0 +1,25 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    /* font-family: roboto, arial; */
+}
+body{
+    margin: 0;
+    padding-top: 80px ;
+    padding-left: 96px ;
+    padding-right: 24px  ;
+    background-color:rgb(243, 240, 240) ;
+    font-family: roboto, arial;
+    position: relative;
+}
+
+@media(min-width: 1200px)
+{
+main{
+    position: absolute;
+    left: 230px;
+    right: 30px;
+}
+
+}
